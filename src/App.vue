@@ -42,7 +42,7 @@ nav .menu {
   display: flex;
   flex-direction: row;
 }
-nav .menu-right a.router-link-exact-active {
+nav .menu a.router-link-exact-active {
   /* color: gray; */
   text-decoration: underline;
 }
@@ -76,6 +76,9 @@ h3 {
 a {
   color: dodgerblue;
   text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
 }
 li {
   margin: 0 0 0.3rem;
