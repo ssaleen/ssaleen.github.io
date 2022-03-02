@@ -35,6 +35,10 @@ nav a {
   text-decoration: none;
   color: teal;
 }
+nav a:hover {
+  /* text-decoration: underline; */
+  font-weight: bold;
+}
 nav .menu {
   max-width: 50rem;
   margin: auto;
@@ -76,6 +80,9 @@ h3 {
 a {
   color: dodgerblue;
   text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
 }
 li {
   margin: 0 0 0.3rem;
