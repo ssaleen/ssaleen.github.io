@@ -35,10 +35,6 @@ nav a {
   text-decoration: none;
   color: teal;
 }
-nav a:hover {
-  /* text-decoration: underline; */
-  font-weight: bold;
-}
 nav .menu {
   max-width: 50rem;
   margin: auto;
@@ -46,7 +42,7 @@ nav .menu {
   display: flex;
   flex-direction: row;
 }
-nav .menu-right a.router-link-exact-active {
+nav .menu a.router-link-exact-active {
   /* color: gray; */
   text-decoration: underline;
 }
