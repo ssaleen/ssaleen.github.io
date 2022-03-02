@@ -9,7 +9,7 @@
         <!-- <router-link to="/">home</router-link> -->
         <router-link to="/jobs">jobs</router-link>
         <router-link to="/projects">projects</router-link>
-        <a href="/saleen_resume.pdf">resume</a>
+        <a href="/saleen_resume.pdf" target="_blank">resume</a>
       </div>
     </div>
   </nav>
@@ -70,9 +70,13 @@ nav .menu-right {
 h1 {
   text-align: center;
 }
-h3 {
-  margin: 40px 0 0;
+h2 {
+  margin-bottom: 0%;
 }
+h3 {
+  margin: 0 0 0;
+}
+
 a {
   color: dodgerblue;
   text-decoration: none;

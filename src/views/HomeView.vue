@@ -1,6 +1,5 @@
 <template>
   <div class="page">
-    <!-- <HelloWorld msg="hello! 🤩👋"/> -->
     <h1>hello! 🤩👋</h1>
     <p>
       Hi, I'm Saleen, a second year Computer Engineering student at the 
@@ -24,19 +23,7 @@
     <p>
       I have also worked on a few projects - check them out 
       <router-link to="/projects">here</router-link>
-      if you're interested! Besides that, you can also see my <a href="/saleen_resume.pdf">resume</a>.
+      if you're interested! Besides that, you can also see my <a href="/saleen_resume.pdf" target="_blank">resume</a>.
     </p>
   </div>
 </template>
-
-<script>
-// // @ is an alias to /src
-// import HelloWorld from '@/components/HelloWorld.vue'
-
-// export default {
-//   name: 'HomeView',
-//   components: {
-//     HelloWorld
-//   }
-// }
-</script>

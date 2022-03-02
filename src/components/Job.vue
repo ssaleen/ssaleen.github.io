@@ -1,5 +1,7 @@
 <template>
-  <h1>{{ msg }}</h1>
+  <h2>{{ title }} @ {{ company }}</h2>
+  <h3>{{ duration }}</h3>
+  <p>{{ description }}</p>
   <p>
     For a guide and recipes on how to configure / customize this project,<br />
     check out the
@@ -7,39 +9,6 @@
       >vue-cli documentation</a
     >.
   </p>
-  <h3>Installed CLI Plugins</h3>
-  <ul>
-    <li>
-      <a
-        href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-router"
-        target="_blank"
-        rel="noopener"
-        >router</a
-      >
-    </li>
-  </ul>
-  <h3>Essential Links</h3>
-  <ul>
-    <li>
-      <a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a>
-    </li>
-    <li>
-      <a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a>
-    </li>
-    <li>
-      <a href="https://chat.vuejs.org" target="_blank" rel="noopener"
-        >Community Chat</a
-      >
-    </li>
-    <li>
-      <a href="https://twitter.com/vuejs" target="_blank" rel="noopener"
-        >Twitter</a
-      >
-    </li>
-    <li>
-      <a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a>
-    </li>
-  </ul>
   <h3>Ecosystem</h3>
   <ul>
     <li>
@@ -76,9 +45,12 @@
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: "Job",
   props: {
-    msg: String,
+    title: String,
+    company: String,
+    duration: String,
+    description: String,
   },
 };
 </script>
