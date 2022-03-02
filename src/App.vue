@@ -3,7 +3,7 @@
     <div class="menu">
       <div class="menu-left">
         <!-- saleen shahriar -->
-        <router-link to="/">saleen shahriar 🥶</router-link>
+        <router-link to="/">saleen shahriar</router-link>
       </div>
       <div class="menu-right">
         <!-- <router-link to="/">home</router-link> -->
