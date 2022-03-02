@@ -6,7 +6,7 @@ cd dist
 
 git init
 git add -A
-git commit -m "new deployment"
-git push -f git@github.com:ssaleen/ssaleen.github.io.git master:gh-pages
+git commit -m "deployment script executed"
+git push -f git@github.com:ssaleen/ssaleen.github.io.git master:deploy
 
 cd -
