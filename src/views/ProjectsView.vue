@@ -12,7 +12,7 @@
     <p>C, cURL, pthreads | 2021</p>
 
     <h3>Multithreaded PNG Retrieval and Concatenation Tool</h3>
-    <p>C, cURL, pthreads, binary i/o | 2021</p>
+    <p>C, cURL, pthreads, PNG signatures/chunks/CRC | 2021</p>
 
     <h3>Graphical Mark Output</h3>
     <p>Java, Swing GUI | 2019</p>
