@@ -1,22 +1,22 @@
 <template>
   <div class="page">
-    <h1>hello! 🤩👋</h1>
+    <h1>hello! 👋</h1>
     <p>
       Hi, I'm Saleen, a second year Computer Engineering student at the 
-      <a href="https://uwaterloo.ca/" target="_blank">University of Waterloo 🇨🇦</a>.
+      <a href="https://uwaterloo.ca/" target="_blank">University of Waterloo</a>.
       I'm interested in mobile and web development, machine learning, embedded systems, and energy.
     </p>
     <p>
       I'm currently interning at 
-      <a href="https://fordpro.com/" target="_blank">Ford Pro 🇺🇸</a> 
-      as a Software Engineering intern 👨‍💻. 
+      <a href="https://fordpro.com/" target="_blank">Ford Pro</a> 
+      as a Software Engineering intern. 
       I have also previously worked at
       <a href="https://www.ricoh.ca/" target="_blank">Ricoh</a> 
       and 
       <a href="https://seismic.com/product-features/social-selling/" target="_blank">Seismic LiveSocial</a>, 
       as a Software Engineering intern, and at 
       <a href="https://www.ieso.ca/" target="_blank">IESO</a> 
-      as a Systems Analyst student ⚡️.
+      as a Systems Analyst student.
       You can check out my work experience in more detail 
       <router-link to="/jobs">here</router-link>.
     </p>
