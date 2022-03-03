@@ -15,7 +15,7 @@
     <p>C, cURL, pthreads, binary i/o | 2021</p>
 
     <h3>Graphical Mark Output</h3>
-    <p>Java, Swing | 2019</p>
+    <p>Java, Swing GUI | 2019</p>
 
     <h3>Guess Who</h3>
     <p>Java | 2018</p>
