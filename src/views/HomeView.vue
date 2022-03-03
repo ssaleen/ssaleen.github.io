@@ -23,7 +23,15 @@
     <p>
       I have also worked on a few projects - check them out 
       <router-link to="/projects">here</router-link>
-      if you're interested! Besides that, you can also see my <a href="/saleen_resume.pdf" target="_blank">resume</a>.
+      if you're interested! Besides that, you can also see my 
+      <a href="https://github.com/ssaleen" target="_blank">GitHub</a> or my 
+      <a href="/saleen_resume.pdf" target="_blank">resume</a>.
+    </p>
+    <p>
+      Feel free to contact me at 
+      <a href="mailto:s4shahri@uwaterloo.ca">s4shahri@uwaterloo.ca</a> 
+      or on my 
+      <a href="http://www.linkedin.com/in/saleenshahriar" target="_blank">LinkedIn</a>.
     </p>
   </div>
 </template>
