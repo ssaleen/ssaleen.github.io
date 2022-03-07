@@ -13,7 +13,7 @@
       I have also previously worked at
       <a href="https://www.ricoh.ca/" target="_blank">Ricoh</a> 
       and 
-      <a href="https://seismic.com/product-features/social-selling/" target="_blank">Seismic LiveSocial</a>, 
+      <a href="https://seismic.com/product-features/social-selling/" target="_blank">Seismic LiveSocial</a> 
       as a Software Engineering intern, and at 
       <a href="https://www.ieso.ca/" target="_blank">IESO</a> 
       as a Systems Analyst student.
