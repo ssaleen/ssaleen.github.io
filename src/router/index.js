@@ -8,7 +8,7 @@ const routes = [
     name: 'home',
     component: HomeView,
     meta: {
-      title: 'Saleen Shahriar',
+      title: DEFAULT_TITLE,
       metaTags: [
         {
           name: 'description',
