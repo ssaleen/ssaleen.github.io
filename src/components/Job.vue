@@ -1,45 +1,8 @@
 <template>
-  <h2>{{ title }} @ {{ company }}</h2>
-  <h3>{{ duration }}</h3>
-  <p>{{ description }}</p>
-  <p>
-    For a guide and recipes on how to configure / customize this project,<br />
-    check out the
-    <a href="https://cli.vuejs.org" target="_blank" rel="noopener"
-      >vue-cli documentation</a
-    >.
-  </p>
-  <h3>Ecosystem</h3>
+  <h3>{{ title }} @ <a :href="companyURL" target="_blank">{{ company }}</a></h3>
+  <h4>{{ duration }}</h4>
   <ul>
-    <li>
-      <a href="https://router.vuejs.org" target="_blank" rel="noopener"
-        >vue-router</a
-      >
-    </li>
-    <li>
-      <a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a>
-    </li>
-    <li>
-      <a
-        href="https://github.com/vuejs/vue-devtools#vue-devtools"
-        target="_blank"
-        rel="noopener"
-        >vue-devtools</a
-      >
-    </li>
-    <li>
-      <a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener"
-        >vue-loader</a
-      >
-    </li>
-    <li>
-      <a
-        href="https://github.com/vuejs/awesome-vue"
-        target="_blank"
-        rel="noopener"
-        >awesome-vue</a
-      >
-    </li>
+    <li v-for="skill in skills" v-bind:key="skill">{{skill}}</li>
   </ul>
 </template>
 
@@ -49,12 +12,17 @@ export default {
   props: {
     title: String,
     company: String,
+    companyURL: String,
     duration: String,
     description: String,
+    skills: Array,
   },
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+ul {
+  margin-top: 1%;
+}
 </style>

@@ -1,32 +1,56 @@
 <template>
   <div class="page">
     <h1>projects</h1>
-
-    <h3>Portfolio Website</h3>
-    <p>Vue.js | 2022</p>
-
-    <h3>Home Security System</h3>
-    <p>C, Mutex, Proteus, PCB/Circuit Design, Microcontrollers | 2021</p>
-
-    <h3>Multithreaded Web Crawler and Mapper</h3>
-    <p>C, cURL, pthreads | 2021</p>
-
-    <h3>Multithreaded PNG Retrieval and Concatenation Tool</h3>
-    <p>C, cURL, pthreads, PNG signatures/chunks/CRC | 2021</p>
-
-    <h3>Graphical Mark Output</h3>
-    <p>Java, Swing GUI | 2019</p>
-
-    <h3>Guess Who</h3>
-    <p>Java | 2018</p>
-
-    <h3>WAR Card Game</h3>
-    <p>Python | 2017</p>
+    <Project
+      title="Portfolio Website"
+      :skills="['Vue.js','HTML','CSS']"
+      date="2022"
+    />
+    <Project
+      title="Home Security System"
+      :skills="['C', 'Mutex', 'Proteus', 'PCB/Circuit Design', 'Microcontrollers']"
+      date="2021"
+    />
+    <Project
+      title="Multithreaded Web Crawler and Mapper"
+      :skills="['C', 'cURL', 'pthreads']"
+      date="2021"
+    />
+    <Project
+      title="Multithreaded PNG Retrieval and Concatenation Tool"
+      :skills="['C', 'cURL', 'pthreads', 'PNG signatures/chunks/CRC']"
+      date="2021"
+    />
+    <Project
+      title="Graphical Mark Output"
+      :skills="['Java', 'Swing GUI']"
+      date="2019"
+    />
+    <Project
+      title="Guess Who"
+      :skills="['Java']"
+      date="2018"
+    />
+    <Project
+      title="WAR Card Game"
+      :skills="['Python']"
+      date="2017"
+    />
   </div>
 </template>
 
-<style scoped>
-p {
-  margin-top: 0%;
+<script>
+// // @ is an alias to /src
+import Project from '@/components/Project.vue'
+
+export default {
+  name: 'ProjectsView',
+  components: {
+    Project
+  }
 }
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
 </style>
