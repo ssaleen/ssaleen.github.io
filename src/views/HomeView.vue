@@ -4,7 +4,7 @@
     <p>
       Hi, I'm Saleen, a second year Computer Engineering student at the 
       <a href="https://uwaterloo.ca/" target="_blank">University of Waterloo</a>.
-      I'm interested in mobile and web development, machine learning, embedded systems, and energy.
+      I'm interested in mobile/web development, ML/AI, and embedded systems.
     </p>
     <p>
       I'm currently interning at 

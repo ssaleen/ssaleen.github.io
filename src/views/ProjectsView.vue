@@ -1,3 +1,4 @@
+// to do: add hardware/software tags (that can be filtered?)
 <template>
   <div class="page">
     <h1>projects</h1>
@@ -8,7 +9,7 @@
     />
     <Project
       title="Home Security System"
-      :skills="['C', 'Mutex', 'Proteus', 'PCB/Circuit Design', 'Microcontrollers']"
+      :skills="['C', 'Proteus', 'PCB/Circuit Design', 'Microcontrollers']"
       date="2021"
     />
     <Project

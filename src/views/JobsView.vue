@@ -6,7 +6,6 @@
       company="Ford Pro"
       companyURL="http://fordpro.com/"
       duration="01/2022 - 04/2022"
-      description="ooga booga"
       :skills="['Vue.js', 'Spring/Java', 'SQL', 'JUnit']"
     />
     <Job
