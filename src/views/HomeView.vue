@@ -1,5 +1,11 @@
 <template>
   <div class="page">
+    <img
+      id="headshot"
+      class="align-center"
+      alt="Headshot of Saleen"
+      src="/headshot.jpeg"
+    >
     <h1>hello! 👋</h1>
     <p>
       Hi, I'm Saleen, a second year Computer Engineering student at the 
@@ -20,3 +26,17 @@
     </p>
   </div>
 </template>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+#headshot {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
