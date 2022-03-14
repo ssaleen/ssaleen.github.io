@@ -39,7 +39,7 @@
     />
     <Project
       title="Trie Dictionary / Autocomplete Tool"
-      :skills="['C++']"
+      :skills="['C++', 'Tries']"
       date=2021
     />
     <Project
