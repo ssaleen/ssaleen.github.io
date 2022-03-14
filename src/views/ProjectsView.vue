@@ -29,7 +29,7 @@
     />
     <Project
       title="Reflex Timer"
-      :skills="['Assembly', 'RISC-V', 'emulsiV']"
+      :skills="['RISC-V', 'Assembly', 'emulsiV']"
       date=2021
     />
     <Project
