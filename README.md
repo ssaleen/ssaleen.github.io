@@ -1,5 +1,4 @@
 # ssaleen.github.io
-Code for my website!
 
 ## Project setup
 ```
