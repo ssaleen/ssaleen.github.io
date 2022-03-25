@@ -22,18 +22,18 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* text-align: center; */
-  color: #2c3e50;
+  color: black;
 }
 
 nav {
-  /* background-color: teal; */
   width: 100%;
 }
 nav a {
   margin-left: 0.6rem;
   margin-right: 0.6rem;
   text-decoration: none;
-  color: teal;
+  text-transform: uppercase;
+  color: black;
 }
 nav .menu {
   max-width: 50rem;
@@ -43,11 +43,7 @@ nav .menu {
   flex-direction: row;
 }
 nav .menu a.router-link-exact-active {
-  /* color: gray; */
   text-decoration: underline;
-}
-nav .menu-left {
-  color: black;
 }
 nav .menu-left a {
   font-weight: bold;
@@ -81,7 +77,7 @@ h4 {
 }
 
 a {
-  color: dodgerblue;
+  color: darkorchid;
   text-decoration: none;
 }
 a:hover {
