@@ -17,16 +17,21 @@
 </template>
 
 <style>
+/* * {
+  margin: 0;
+} */
+
 #app {
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* text-align: center; */
   color: black;
+  /* background-color: lightblue; */
 }
 
 nav {
   width: 100%;
+  /* background-color: dodgerblue; */
 }
 nav a {
   margin-left: 0.6rem;
@@ -77,7 +82,7 @@ h4 {
 }
 
 a {
-  color: darkorchid;
+  color: dodgerblue;
   text-decoration: none;
 }
 a:hover {
