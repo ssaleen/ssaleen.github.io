@@ -34,9 +34,6 @@ nav a {
   text-transform: uppercase;
   color: black;
 }
-nav a:hover {
-  text-shadow: 1px 1px lightgrey;
-}
 nav .menu {
   max-width: 50rem;
   margin: auto;
