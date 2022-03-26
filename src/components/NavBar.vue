@@ -34,15 +34,15 @@ nav a {
   text-transform: uppercase;
   color: black;
 }
+nav a.router-link-exact-active {
+  text-decoration: underline;
+}
 nav .menu {
   max-width: 50rem;
   margin: auto;
   padding: 1rem;
   display: flex;
   flex-direction: row;
-}
-nav .menu a.router-link-exact-active {
-  text-decoration: underline;
 }
 nav .menu-left a {
   font-weight: bold;
