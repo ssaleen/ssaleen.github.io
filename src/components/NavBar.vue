@@ -17,8 +17,8 @@
 
 <script>
 export default {
-  name: 'NavBar'
-}
+  name: "Navbar",
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
