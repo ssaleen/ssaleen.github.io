@@ -1,20 +1,18 @@
 <template>
-  <nav>
-    <div class="menu">
-      <div class="menu-left">
-        <!-- saleen shahriar -->
-        <router-link to="/">saleen shahriar</router-link>
-      </div>
-      <div class="menu-right">
-        <!-- <router-link to="/">home</router-link> -->
-        <router-link to="/jobs">jobs</router-link>
-        <router-link to="/projects">projects</router-link>
-        <a href="/saleen_resume.pdf" target="_blank">resume</a>
-      </div>
-    </div>
-  </nav>
+  <NavBar />
   <router-view />
 </template>
+
+<script>
+import NavBar from './components/NavBar.vue'
+
+export default {
+  name: "App",
+  components: {
+    NavBar,
+  },
+}
+</script>
 
 <style>
 /* * {
@@ -22,39 +20,9 @@
 } */
 
 #app {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Noto Sans, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: black;
-  /* background-color: lightblue; */
-}
-
-nav {
-  width: 100%;
-  /* background-color: dodgerblue; */
-}
-nav a {
-  margin-left: 0.6rem;
-  margin-right: 0.6rem;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: black;
-}
-nav .menu {
-  max-width: 50rem;
-  margin: auto;
-  padding: 1rem;
-  display: flex;
-  flex-direction: row;
-}
-nav .menu a.router-link-exact-active {
-  text-decoration: underline;
-}
-nav .menu-left a {
-  font-weight: bold;
-}
-nav .menu-right {
-  margin-left: auto;
 }
 
 .page,
