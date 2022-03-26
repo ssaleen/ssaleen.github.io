@@ -25,7 +25,7 @@ export default {
 <style scoped>
 nav {
   width: 100%;
-  /* background-color: dodgerblue; */
+  border-bottom: 1px solid black;
 }
 nav a {
   margin-left: 0.6rem;
