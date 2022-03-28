@@ -3,6 +3,16 @@
   <div class="page">
     <h1>projects</h1>
     <Project
+      title="Sentiment Classifier"
+      :skills="['Python', 'scikit-learn', 'numpy', 'pandas', 'Google Cloud Functions', 'Flask']"
+      date=2022
+    />
+    <Project
+      title="Article Topic Classifier"
+      :skills="['Python', 'scikit-learn', 'numpy', 'pandas']"
+      date=2022
+    />
+    <Project
       title="Portfolio Website"
       :skills="['Vue.js','HTML','CSS']"
       date=2022
