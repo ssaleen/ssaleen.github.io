@@ -1,8 +1,9 @@
 <template>
   <h3>{{ title }} @ <a :href="companyURL" target="_blank">{{ company }}</a></h3>
   <h4>{{ duration }}</h4>
+  <p>Technologies: {{ skills.join(", ") }}</p>
   <ul>
-    <li v-for="skill in skills" v-bind:key="skill">{{skill}}</li>
+    <li v-for="note in notes" v-bind:key="note">{{note}}</li>
   </ul>
 </template>
 
@@ -16,12 +17,16 @@ export default {
     duration: String,
     description: String,
     skills: Array,
+    notes: Array,
   },
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+p {
+  margin-top: 0;
+}
 ul {
   margin-top: 1%;
 }
