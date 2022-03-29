@@ -1,4 +1,4 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 
 const DEFAULT_TITLE = 'Saleen Shahriar';
@@ -12,11 +12,11 @@ const routes = [
       metaTags: [
         {
           name: 'description',
-          content: 'The home page.'
+          content: 'Hello! I\'m Saleen.'
         },
         {
           property: 'og:description',
-          content: 'The home page.'
+          content: 'Hello! I\'m Saleen.'
         }
       ]
     }
@@ -66,7 +66,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes
 })
 
