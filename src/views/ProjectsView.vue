@@ -1,7 +1,7 @@
 // to do: add hardware/software tags (that can be filtered?)
 <template>
   <div class="page">
-    <h1>projects</h1>
+    <h1>Projects</h1>
     <Project
       title="Sentiment Classifier"
       :skills="['Python', 'scikit-learn', 'numpy', 'pandas', 'Google Cloud Functions', 'Flask']"

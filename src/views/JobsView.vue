@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <h1>jobs</h1>
+    <h1>Jobs</h1>
     <Job
       title="Software Engineering Intern"
       company="Ford Pro"

@@ -6,12 +6,12 @@
       alt="Headshot of Saleen"
       src="/headshot.jpeg"
     > -->
-    <h1>hello!</h1>
+    <h1>Hello!</h1>
     <p>
-      Hi, I'm Saleen, a second year Computer Engineering student at the 
+      I'm Saleen, a second year Computer Engineering student at the 
       <a href="https://uwaterloo.ca/" target="_blank">University of Waterloo</a>.
       I enjoy learning about all things technology, programming, and electronics!
-      If you don't like that stuff, I also love soccer, basketball, biking, and F1!
+      Besided that, I love soccer, basketball, biking, and F1!
     </p>
     <p>
       You can check out my
