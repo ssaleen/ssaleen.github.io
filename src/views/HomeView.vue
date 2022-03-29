@@ -9,9 +9,10 @@
 
     <h2>Hello, I'm</h2>
     <h1>Saleen Shahriar</h1>
+    <!-- TODO: Cursor-Carousel: Waterloo Computer Engineering, Soccer Fan, Constantly Learning -->
 
     <p>
-      I'm Saleen, a third year Computer Engineering student at the 
+      Currently in my third year of Computer Engineering at the 
       <a href="https://uwaterloo.ca/" target="_blank">University of Waterloo</a>.
       I enjoy learning about all things technology, programming, and electronics!
       Besided that, I love soccer, basketball, biking, and F1!
