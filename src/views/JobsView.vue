@@ -33,7 +33,6 @@
 </template>
 
 <script>
-// // @ is an alias to /src
 import Job from '@/components/Job.vue'
 
 export default {

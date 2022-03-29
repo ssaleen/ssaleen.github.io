@@ -20,34 +20,3 @@ export default {
   name: "Navbar",
 };
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-nav {
-  width: 100%;
-  border-bottom: 1px solid black;
-}
-nav a {
-  margin-left: 0.6rem;
-  margin-right: 0.6rem;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: black;
-}
-nav a.router-link-exact-active {
-  text-decoration: underline;
-}
-nav .menu {
-  max-width: 50rem;
-  margin: auto;
-  padding: 1rem;
-  display: flex;
-  flex-direction: row;
-}
-nav .menu-left a {
-  font-weight: bold;
-}
-nav .menu-right {
-  margin-left: auto;
-}
-</style>

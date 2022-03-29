@@ -6,9 +6,12 @@
       alt="Headshot of Saleen"
       src="/headshot.jpeg"
     > -->
-    <h1>Hello!</h1>
+
+    <h2>Hello, I'm</h2>
+    <h1>Saleen Shahriar</h1>
+
     <p>
-      I'm Saleen, a second year Computer Engineering student at the 
+      I'm Saleen, a third year Computer Engineering student at the 
       <a href="https://uwaterloo.ca/" target="_blank">University of Waterloo</a>.
       I enjoy learning about all things technology, programming, and electronics!
       Besided that, I love soccer, basketball, biking, and F1!
@@ -27,7 +30,6 @@
   </div>
 </template>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #headshot {
   width: 150px;
@@ -38,5 +40,11 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+h2{
+  text-align: center;
+}
+h1{
+  margin-top: 0;
 }
 </style>
