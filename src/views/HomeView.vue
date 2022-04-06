@@ -1,16 +1,16 @@
 <template>
-  <div class="page">
-    <!-- <img
-      id="headshot"
-      class="align-center"
-      alt="Headshot of Saleen"
-      src="/headshot.jpeg"
-    > -->
+  <!-- <img
+    id="headshot"
+    class="align-center"
+    alt="Headshot of Saleen"
+    src="/headshot.jpeg"
+  > -->
 
-    <h2>Hello, I'm</h2>
-    <h1>Saleen Shahriar</h1>
-    <!-- TODO: Cursor-Carousel: University of Waterloo, Computer Engineering Student, Software Developer, Soccer Fan, Constantly Learning -->
-
+  <main>
+    <h1 class="fw-bold">Hi, I'm Saleen!</h1>
+    <!-- <p class="fs-5 col-md-8">
+      Quickly and easily get started with Bootstrap's compiled, production-ready files with this barebones example featuring some basic HTML and helpful links. Download all our examples to get started.
+    </p> -->
     <p>
       Currently in my third year of Computer Engineering at the 
       <a href="https://uwaterloo.ca/" target="_blank">University of Waterloo</a>.
@@ -28,7 +28,7 @@
       or on my
       <a href="http://www.linkedin.com/in/saleenshahriar" target="_blank">LinkedIn</a>.
     </p>
-  </div>
+  </main>
 </template>
 
 <style scoped>
@@ -41,11 +41,5 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-h2{
-  text-align: center;
-}
-h1{
-  margin-top: 0;
 }
 </style>

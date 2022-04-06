@@ -1,6 +1,8 @@
 <template>
-  <Navbar />
-  <router-view />
+  <div class="container">
+    <Navbar />
+    <router-view />
+  </div>
 </template>
 
 <script>
@@ -15,5 +17,6 @@ export default {
 </script>
 
 <style>
-@import 'styles/style';
+@import'~bootstrap/dist/css/bootstrap.css'
+/* @import 'styles/style'; */
 </style>
