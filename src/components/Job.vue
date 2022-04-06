@@ -1,5 +1,5 @@
 <template>
-  <h3 class="mb-0">{{ title }} | <a :href="companyURL" target="_blank">{{ company }}</a></h3>
+  <h3 class="mb-0">{{ title }} @ <a :href="companyURL" target="_blank">{{ company }}</a></h3>
   <h4>{{ duration }}</h4>
   <p>Technologies: {{ skills.join(", ") }}</p>
   <ul>
@@ -21,3 +21,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+a {
+  text-decoration: none;
+}
+</style>
