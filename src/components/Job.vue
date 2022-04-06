@@ -1,6 +1,7 @@
 <template>
-  <h3 class="mb-0">{{ title }} @ <a :href="companyURL" target="_blank">{{ company }}</a></h3>
-  <h4>{{ duration }}</h4>
+  <h4 class="mb-0"><a :href="companyURL" target="_blank">{{ company }}</a></h4>
+  <h4 class="mb-0">{{ title }}</h4>
+  <h5>{{ duration }}</h5>
   <p>Technologies: {{ skills.join(", ") }}</p>
   <ul>
     <li v-for="note in notes" v-bind:key="note">{{note}}</li>

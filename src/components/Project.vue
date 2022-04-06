@@ -1,5 +1,5 @@
 <template>
-  <h3 class="mb-0">{{ title }}</h3>
+  <h4 class="mb-0">{{ title }}</h4>
   <p>{{ skills.join(", ") }} | {{ date }}</p>
 </template>
 
