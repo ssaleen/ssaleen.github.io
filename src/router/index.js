@@ -1,7 +1,7 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 
-const DEFAULT_TITLE = 'Saleen Shahriar';
+const DEFAULT_TITLE = 'Saleen';
 const routes = [
   {
     path: '/',
