@@ -9,12 +9,12 @@
 
     <h2>Hello, I'm</h2>
     <h1>Saleen Shahriar</h1>
-    <!-- TODO: Cursor-Carousel: Waterloo Computer Engineering, Soccer Fan, Constantly Learning -->
+    <!-- TODO: Cursor-Carousel: University of Waterloo, Computer Engineering Student, Software Developer, Soccer Fan, Constantly Learning -->
 
     <p>
       Currently in my third year of Computer Engineering at the 
       <a href="https://uwaterloo.ca/" target="_blank">University of Waterloo</a>.
-      I enjoy learning about all things technology, programming, and electronics!
+      I enjoy learning about all things technology, programming, electronics, and design!
       Besides that, I love soccer, basketball, biking, and F1!
     </p>
     <p>
