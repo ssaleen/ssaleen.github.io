@@ -14,7 +14,7 @@
     <p>
       Currently in my third year of Computer Engineering at the 
       <a href="https://uwaterloo.ca/" target="_blank">University of Waterloo</a>.
-      I enjoy learning about all things technology, programming, electronics, and design!
+      I enjoy learning about all things software, electronics, and design!
       Besides that, I love soccer, basketball, biking, and F1!
     </p>
     <p>
