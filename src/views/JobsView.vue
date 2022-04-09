@@ -5,14 +5,14 @@
     company="Ford Pro"
     companyURL="http://fordpro.com/"
     duration="01/2022 - 04/2022"
-    :skills="['Vue.js', 'Spring/Java', 'Postman', 'GCP', 'SQL', 'JUnit']"
+    :skills="['Vue.js', 'Spring/Java', 'Postman', 'GCP']"
   />
   <Job
     title="Software Engineering Intern"
     company="Ricoh"
     companyURL="http://www.ricoh.ca/"
     duration="05/2021 - 08/2021"
-    :skills="['Java', 'REST APIs', 'SNMP']"
+    :skills="['Java', 'SNMP', 'TCP/IP']"
   />
   <Job
     title="Software Engineering Intern"

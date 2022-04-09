@@ -18,7 +18,7 @@
   />
   <Project
     title="Home Security System"
-    :skills="['C', 'Proteus', 'PCB/Circuit Design', 'Microcontrollers']"
+    :skills="['C', 'Proteus', 'PCB/Circuit Design', 'STM32', 'Microcontrollers']"
     date=2021
   />
   <Project
