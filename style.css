@@ -8,8 +8,12 @@ body {
   /* background-color: rgb(26, 26, 26);   */
 }
 
-a, a:visited, a:hover, a:active {
+a, a:visited, a:hover, a:active, .nav-link, .nav-link:hover {
   color: #8100B4;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #8100B4;
 }
 
 /* .btn-primary {
