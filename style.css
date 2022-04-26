@@ -30,10 +30,13 @@ a, a:visited, a:hover, a:active, .nav-link, .nav-link:hover {
 
 .name {
   color: #8100B4;
+}
+
+.shake {
   display: inline-block;
 }
 
-.name:hover {
+.shake:hover {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
 }
