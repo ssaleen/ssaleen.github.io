@@ -8,14 +8,20 @@ body {
   /* background-color: rgb(26, 26, 26);   */
 }
 
-a {
+a, a:visited, a:hover, a:active {
   color: #8100B4;
 }
 
-.btn-primary {
+/* .btn-primary {
   color: #fff;
   background-color: #8100B4;
   border-color: #8100B4;
+} */
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: #8100B4 !important;
+  border-color: #8100B4 !important;
+  color: white;
 }
 
 .name {
