@@ -3,9 +3,9 @@
 
 /* Global */
 body {
-  /* color: rgba(255,255,255); */
+  /* background-color: black; */
   font-family: Be Vietnam Pro, system-ui, sans;
-  /* background-color: rgb(26, 26, 26);   */
+  /* color: white; */
 }
 
 a, a:visited, a:hover, a:active, .nav-link, .nav-link:hover {
@@ -15,12 +15,6 @@ a, a:visited, a:hover, a:active, .nav-link, .nav-link:hover {
 .nav-pills .nav-link.active {
   background-color: #8100B4;
 }
-
-/* .btn-primary {
-  color: #fff;
-  background-color: #8100B4;
-  border-color: #8100B4;
-} */
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
   background-color: #8100B4 !important;
