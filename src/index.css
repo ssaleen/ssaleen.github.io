@@ -120,8 +120,8 @@ body {
 .white-mode .line {
   background: linear-gradient(
     180deg,
-    #e1e3f9 0%,
-    var(--purple-dark-color) 100%
+    var(--purple-dark-color) 0%,
+    #e1e3f9 100%
   );
 }
 

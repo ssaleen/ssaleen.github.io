@@ -13,8 +13,8 @@ export const About = () => {
         </p>
         <p className="white-text">
           Reach out to me on{" "}
-          <a className="about-see" href="https://www.linkedin.com/in/saleenshahriar">LinkedIn</a>{" "}
-          or by <a className="about-see" href="mailto:s4shahri@uwaterloo.ca">email</a>.
+          <a className="about-see" href="https://www.linkedin.com/in/saleenshahriar" target="_blank" rel="noreferrer">LinkedIn</a>{" "}
+          or by <a className="about-see" href="mailto:s4shahri@uwaterloo.ca" target="_blank" rel="noreferrer">email</a>.
         </p>
       </div>
     </section>

@@ -8,7 +8,7 @@ export const Bio = () => {
         <img src="https://avatars.githubusercontent.com/u/25284008?v=4" alt="" />
       </div>
       <p className="purple-text">
-        📚 Computer Engineering <span className="purple-smoke-text">- University of Waterloo</span>{" "}
+        Now: <span className="purple-smoke-text">Computer Engineering Student at the University of Waterloo</span>{" "}
       </p>
       <div className="line"></div>
       {BIO.map((e, i) => (
