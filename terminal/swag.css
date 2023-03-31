@@ -1,0 +1,31 @@
+body {
+	background-color: #000
+}
+
+#console {
+	font-family: courier, monospace;
+	color: #fff;
+	width:750px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+	font-size:14px;
+}
+
+a {color: #0bc;text-decoration: none;}
+#a {color: #0f0;}
+#c {color: #0bc;}
+#b {color: #FF48B4;}
+#k {color: yellow;}
+#o {color: #ff00ff;}
+#w {color: #00FFD3;}
+#x {color:#AF92FF;}
+#y {color:#FF7272;}
+#z {color: black;}
+#op {color: #888888}
+
+@keyframes change {
+    	0%  { color: yellow; }
+    	50% { color:  yellow; }
+    	99% { color: black; }
+}
