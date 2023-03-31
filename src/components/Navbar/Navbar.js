@@ -8,7 +8,7 @@ export default function Navbar({ handleModeChange, setMode }) {
       <div className="navbar-left white-text">
         <ul>
           <li>
-            <a target="_blank" rel="noreferrer" href="https://saleen.dev/resume.pdf">
+            <a target="_blank" rel="noreferrer" href="/resume.pdf">
               <AiFillFilePdf />&nbsp;
               <span className="link-decoration">Resume</span>
             </a>
