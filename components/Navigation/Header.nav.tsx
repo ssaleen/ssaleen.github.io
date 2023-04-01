@@ -12,7 +12,7 @@ const TextLink: NextComponentType<NextPageContext, {}, linkProps> = ({
   return (
     <a
       href={url}
-      className="cursor-pointer rounded-md px-4 py-[0.10rem] text-xl text-gray-200 duration-100 hover:bg-zinc-800"
+      className="cursor-pointer rounded-md px-4 py-[0.10rem] text-xl text-black duration-100 hover:bg-zinc-200"
     >
       {text}
     </a>

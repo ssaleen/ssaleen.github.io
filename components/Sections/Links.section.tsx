@@ -11,7 +11,7 @@ import { Icon } from "../Misc/Icon.component";
 const Links: NextComponentType = () => {
   return (
     <div className="px-3 font-sen" id="links">
-      <p className="text-3xl font-bold text-white">My Links</p>
+      <p className="text-3xl font-bold text-black">My Links</p>
 
       <div className="my-8 flex flex-row justify-center gap-x-4">
         <Icon icon={<MdEmail />} url="mailto:s4shahri@uwaterloo.ca" />
