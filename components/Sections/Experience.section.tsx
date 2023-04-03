@@ -10,30 +10,35 @@ const Experience = () => {
           <BsArrowRightShort size="30" />
           <span className="text-black">Autonomic:</span>
           &nbsp;Software Engineering Intern
+          (Winter 2023)
         </p>
 
         <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-gray-600">
           <BsArrowRightShort size="30" />
           <span className="text-black">Ford Pro:</span>
           &nbsp;Software Engineering Intern
+          (Winter 2022)
         </p>
 
         <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-gray-600">
           <BsArrowRightShort size="30" />
           <span className="text-black">Ricoh:</span>
           &nbsp;Software Engineering Intern
+          (Summer 2021)
         </p>
 
         <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-gray-600">
           <BsArrowRightShort size="30" />
           <span className="text-black">Seismic:</span>
           &nbsp;Software Engineering Intern
+          (Fall 2020)
         </p>
 
         <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-gray-600">
           <BsArrowRightShort size="30" />
           <span className="text-black">IESO:</span>
           &nbsp;Power Systems Analyst Intern
+          (Winter 2020)
         </p>
       </div>
     </div>
